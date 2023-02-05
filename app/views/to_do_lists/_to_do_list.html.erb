@@ -1,0 +1,22 @@
+<div id="<%= dom_id to_do_list %>">
+  <p class="my-3.5">
+    <strong class="block font-medium mb-1">First name:</strong>
+    <%= to_do_list.first_name %>
+  </p>
+
+  <p class="my-3.5">
+    <strong class="block font-medium mb-1">Last name:</strong>
+    <%= to_do_list.last_name %>
+  </p>
+
+  <p class="my-3.5">
+    <strong class="block font-medium mb-1">Activity:</strong>
+    <%= to_do_list.activity %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this To-do list", to_do_list, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to 'Edit this To-do list', edit_to_do_list_path(to_do_list), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>
