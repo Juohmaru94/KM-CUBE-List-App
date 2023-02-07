@@ -1,20 +1,26 @@
 **Simple CRUD Application**
 
-This is a simple CRUD (Create, Read, Update, Delete) application built using Ruby, Tailwind CSS, and Bootstrap. The application allows users to perform basic CRUD operations on a collection of data, such as creating new records, viewing existing records, updating existing records, and deleting records.
+*This is a simple CRUD (Create, Read, Update, Delete) application built using Ruby, Tailwind CSS, and Bootstrap. The application allows users to perform basic CRUD operations on a collection of data, such as creating new records, viewing existing records, updating existing records, and deleting records.*
 
 **Features**
 
-*Listing of all records
-*Viewing individual record details
-*Creating new records
-*Updating existing records
-*Deleting records
+*Listing of all records*
+
+*Viewing individual record details*
+
+*Creating new records*
+
+*Updating existing records*
+
+*Deleting records*
 
 **Requirements**
 
-*Ruby version 2.6.5 or higher
-*Rails version 6.0.3 or higher
-*SQLite3 database
+*Ruby version 2.6.5 or higher*
+
+*Rails version 6.0.3 or higher*
+
+*SQLite3 database*
 
 **Getting started**
 
