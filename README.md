@@ -1,24 +1,38 @@
-# README
+**Simple CRUD Application**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple CRUD (Create, Read, Update, Delete) application built using Ruby, Tailwind CSS, and Bootstrap. The application allows users to perform basic CRUD operations on a collection of data, such as creating new records, viewing existing records, updating existing records, and deleting records.
 
-Things you may want to cover:
+**Features**
 
-* Ruby version
+*Listing of all records
+*Viewing individual record details
+*Creating new records
+*Updating existing records
+*Deleting records
 
-* System dependencies
+**Requirements**
 
-* Configuration
+*Ruby version 2.6.5 or higher
+*Rails version 6.0.3 or higher
+*SQLite3 database
 
-* Database creation
+**Getting started**
 
-* Database initialization
+***1. Clone the repository to your local machine***
 
-* How to run the test suite
+git clone https://github.com/Juohmaru94/KM-CUBE-List-App.git
 
-* Services (job queues, cache servers, search engines, etc.)
+***2. Change into the newly created directory and run 'bundle install' to install all dependencies***
 
-* Deployment instructions
+cd simple-crud-app
+bundle install
 
-* ...
+***3. Run the following command to create the database and run the migrations***
+
+rake db:create db:migrate
+
+***4.Start the Rails server with the following command***
+
+rails s
+
+***5. Open your browser and visit http://localhost:3000 to access the application.***
